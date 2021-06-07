@@ -183,13 +183,19 @@ th{
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
   grid-auto-flow: dense;
+  height: 400px;
 }
 
 .attractie{
   border: solid 1px #000;
+  color: #0B351D;
   border-radius:  10px;
+  background-color: #F5FCF8;
 }
 
+.attractie-main{
+  padding-left: 10px;
+}
 .minimum-length{
   color: #849D8E;
 }
@@ -205,20 +211,56 @@ th{
   padding: 0;
 }
 
-img{
+.img-reuzenrad{
+  background-image: url("../img/attracties/adger-kang-oiyzr-SgjBY-unsplash.jpg");
   width: 100%;
-  height: 40%;
+  height: 50%;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+}
+
+.img-thunderbolt{
+  background-image: url("../img/attracties/david-murcia-HbYniDwjbVE-unsplash.jpg");
+  width: 100%;
+  height: 50%;
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+  background-position: center;
 }
 
 .fastpass-text{
   width: 50%;
 }
 
+.fastpass-button{
+  background-color:#FFFFFF;
+  border-left: solid 1px #E5E5E5;
+  text-align: center;
+  border-radius: 0 0 10px 0;
+  padding: 10px;
+}
+
+.fastpass-button p{
+    color: #849D8E;
+}
+
 .fastpass{
  grid-column: span 2;
 }
 
+.fastpass-main{
+  display: flex;
+  padding-left: 10px;
+}
 
+button{
+  background-color: #3ED67D;
+  padding: 10px;
+  border-radius: 10px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

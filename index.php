@@ -27,52 +27,38 @@ require_once 'admin/backend/config.php';
         <main>
             <div class="attracties">
                 <div class="attractie">
-                    <img src="img/attracties/adger-kang-oiyzr-SgjBY-unsplash.jpg" alt="">
-                    <div class="head-attractie">
-                        <p>familyland</p>
-                        <h2>Reuzenrad</h2>
-                    </div>
-                    <p>Bekijk het park van grote hoogte met het hele gezin.</p>
-                    <div class="minimum-length">
-                    <p> ... minimale lengte</p>
+                    <div class="img-reuzenrad"></div>
+                    <!-- <img src="img/attracties/adger-kang-oiyzr-SgjBY-unsplash.jpg" alt=""> -->
+                    <div class="attractie-main">
+                        <div class="head-attractie">
+                            <p>familyland</p>
+                            <h2>Reuzenrad</h2>
+                        </div>
+                        <p>Bekijk het park van grote hoogte met het hele gezin.</p>
+                        <div class="minimum-length">
+                        <p> ... minimale lengte</p>
+                        </div>
                     </div>
                 </div>
                 <div class="attractie fastpass">
-                    <img src="img/attracties/david-murcia-HbYniDwjbVE-unsplash.jpg" alt="">
-                    <div class="fastpass-text">   
-                        <div class="head-attractie">
-                            <p>adventureland</p>
-                            <h2>Thunderbolt</h2>
-                        </div>
-                        <p>Echte thrillseekers komen aan hun trekken.</p>
-                        <div class="minimum-length">
-                            <p> ... minimale lengte</p>
+                    <div class="img-thunderbolt"></div>
+                    <!-- <img src="img/attracties/david-murcia-HbYniDwjbVE-unsplash.jpg" alt=""> -->
+                    <div class="fastpass-main">
+                        <div class="fastpass-text">   
+                            <div class="head-attractie">
+                                <p>adventureland</p>
+                                <h2>Thunderbolt</h2>
+                            </div>
+                            <p>Echte thrillseekers komen aan hun trekken.</p>
+                            <div class="minimum-length">
+                                <p> ... minimale lengte</p>
+                            </div>
                         </div>
                         <div class="fastpass-button">
-                            
+                            <p>Deze attractie is alleen te bezoeken met een fastpass.</p>
+                            <p>Boek nu en sla de wachtrij over:</p>
+                            <button>FASTPASS</button>
                         </div>
-                    </div>
-                </div>
-                <div class="attractie">
-                    <img src="img/attracties/alex-kalinin-6gYjwD4s9xk-unsplash.jpg" alt="">
-                    <div class="head-attractie">
-                        <p>familyland</p>
-                        <h2>Caroussel</h2>
-                    </div>
-                    <p>Voor de allerkleinsten: maak een rondje in de antieke draaimolen.</p>
-                    <div class="minimum-length">
-                    <p> ... minimale lengte</p>
-                    </div>
-                </div>
-                <div class="attractie">
-                    <img src="img/attracties/brandon-hoogenboom-P0MX2XCqbFc-unsplash.jpg" alt="">
-                    <div class="head-attractie">
-                        <p>waterland</p>
-                        <h2>Reuzeglijbaan</h2>
-                    </div>
-                    <p>Afkoelen in het waterparadijs (alleen open op warme dagen).</p>
-                    <div class="minimum-length">
-                    <p> ... minimale lengte</p>
                     </div>
                 </div>
             </div>
